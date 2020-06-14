@@ -1,5 +1,3 @@
-# legacy-gatsby-plugin-polyfill-io
+# gatsby-plugin-polyfill-io-head
 
-**DO NOT USE**
-
-Now part of [escalade](https://github.com/escaladesports/escalade-internal/tree/master/packages/gatsby-plugin-polyfill-io) monorepo.
+*This is an updated version of [legacy-gatsby-plugin-polyfill-io](https://github.com/escaladesports/legacy-gatsby-plugin-polyfill-io)
