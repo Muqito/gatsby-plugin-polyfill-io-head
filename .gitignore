@@ -29,6 +29,7 @@ _optimize
 .postcssrc
 /*.js
 /*.js.map
+.idea
 
 # Temporary
 temp

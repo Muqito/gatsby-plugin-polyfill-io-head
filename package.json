@@ -1,18 +1,20 @@
 {
-  "name": "gatsby-plugin-polyfill-io",
-  "version": "1.1.0",
+  "name": "gatsby-plugin-polyfill-io-head",
+  "version": "1.2.0",
   "keywords": [
     "gatsby-plugin",
     "gatsby",
     "plugin",
     "polyfill",
-    "polyfill.io"
+    "polyfill.io",
+    "gatsby-plugin-polyfill-io",
+    "legacy-gatsby-plugin-polyfill-io"
   ],
   "main": "gatsby-ssr.js",
-  "author": "Kennedy Rose <krose@escaladesports.com>",
+  "author": "Christoffer Lantz <christoffer.lantz@androidbutiken.net>, Kennedy Rose <krose@escaladesports.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/escaladesports/gatsby-plugin-polyfill-io.git"
+    "url": "https://github.com/Muqito/gatsby-plugin-polyfill-io-head.git"
   },
   "license": "MIT",
   "scripts": {
@@ -20,8 +22,7 @@
     "build": "esca-scripts build --input src --output . --multiple --react --babel",
     "prepublishOnly": "npm run build",
     "reset": "esca-scripts reset",
-    "test": "npm run build && esca-scripts test",
-    "travis": "opn https://travis-ci.org/escaladesports/gatsby-plugin-polyfill-io/branches"
+    "test": "npm run build && esca-scripts test"
   },
   "devDependencies": {
     "esca-scripts": "^0.14.3",
