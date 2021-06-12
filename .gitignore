@@ -59,12 +59,23 @@ typings/
 
 # next.js build output
 .next
-
-# builded files
-/gatsby-ssr.js
-
-# demo build files
-demo/.cache
-demo/public
-
+json
+public
+.cache
+envdotjs-key
+env.js
+.serverless
+dist-es6
+dist-browser
+dist-es5
+dist-modules
+_optimize
+.babelrc
+.postcssrc
+/*.js
+/*.js.map
 .idea
+
+# Temporary
+temp
+temp-*
